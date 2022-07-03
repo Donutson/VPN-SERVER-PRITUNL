@@ -13,4 +13,4 @@ Boot disk
 image: Ubuntu 20.04 LTS
 ![](images/pritunl-server-creation-1.PNG)
 And leave all others fields with default value, then click create.
-Alright, we have our virtual machine on GCP, let's go and [install pritunl](https://github.com/Donutson/VPN-SERVER-PRITUNL/02-install-pritunl) on it.
+Alright, we have our virtual machine on GCP, let's go and [install pritunl](https://github.com/Donutson/VPN-SERVER-PRITUNL/blob/main/02-install-pritunl.md) on it.
