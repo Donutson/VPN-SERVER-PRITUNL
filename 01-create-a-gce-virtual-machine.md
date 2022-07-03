@@ -11,6 +11,10 @@ serie: N1
 ![](images/pritunl-server-creation.PNG)
 Boot disk
 image: Ubuntu 20.04 LTS
+Firewall
+coche the two cases (ALLOW HTTP traffic and ALLOW HTTPS traffic)
 ![](images/pritunl-server-creation-1.PNG)
+Expand the Networking section and coche enable under IP forwarding
+![](images/enable-ip-forwarding.PNG)
 And leave all others fields with default value, then click create.
 Alright, we have our virtual machine on GCP, let's go and [install pritunl](https://github.com/Donutson/VPN-SERVER-PRITUNL/blob/main/02-install-pritunl.md) on it.
