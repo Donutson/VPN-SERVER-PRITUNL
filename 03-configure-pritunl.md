@@ -2,7 +2,7 @@
 
 ## Increase Open File Limit
 
-Run the commands below to increase the open file limit on the server. This will prevent connections issues on servers with high load. This should also be done on the MongoDB server. Use the command sudo lsof -p `pgrep pritunl-web` | wc -l to check the file count for the Pritunl web server.
+Run the commands below to increase the open file limit on the server. This will prevent connections issues on servers with high load. This should also be done on the MongoDB server. Use the command ```sudo lsof -p `pgrep pritunl-web` | wc -l``` to check the file count for the Pritunl web server.
 
 ```shell
 sudo sh -c 'echo "* hard nofile 64000" >> /etc/security/limits.conf'
