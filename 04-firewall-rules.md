@@ -10,4 +10,4 @@ Source IPV4 ranges: 0.0.0.0/0<br>
 Specified protocols and ports: coche UDP and enter 10107 as value (or the port you have specified in the configuration of your pritunl instance)<br>
 ![](images/pritunl-ingress.PNG)
 ![](images/create-firewall-1.PNG)<br>
-Repeat the same process to create an egress rule (just change Direction of traffic for Egress). Let's see [how to connect to our vpn](connect-to-pritunl).
+Repeat the same process to create an egress rule (just change Direction of traffic for Egress). Let's see [how to connect to our vpn](05-connect-to-pritunl.md).
