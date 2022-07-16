@@ -10,4 +10,9 @@ Source IPV4 ranges: 0.0.0.0/0<br>
 Specified protocols and ports: coche UDP and enter 10107 as value (or the port you have specified in the configuration of your pritunl instance)<br>
 ![](images/pritunl-ingress.PNG)
 ![](images/create-firewall-1.PNG)<br>
-Repeat the same process to create an egress rule (just change Direction of traffic for Egress). Let's see [how to connect to our vpn](05-connect-to-pritunl.md).
+Repeat the same process to create an egress rule (just change Direction of traffic for Egress). 
+Now let's tag our vm instance, go to your [vm instances](https://console.cloud.google.com/compute/), click on your pritunl vm name and then on EDIT <br>
+![](images/edit-vm.PNG)<br>
+Scroll down to the networks tags section and add pritunl-vpn<br>
+![](images/network-tag.PNG)
+Let's see [how to connect to our vpn](05-connect-to-pritunl.md).
