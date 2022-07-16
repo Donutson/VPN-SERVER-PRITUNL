@@ -4,17 +4,17 @@ Click on the button [CREATE INSTANCE](https://console.cloud.google.com/compute/i
 ![](images/gce-create-instance.PNG)
 We will create an Ubuntu 20.04 LTS vm,
 we fill the fields as follow
-Name: pritunl-vpn-server
-region: europe-west1
-Machine family
-serie: N1
-![](images/pritunl-server-creation.PNG)
-Boot disk
-image: Ubuntu 20.04 LTS
-Firewall
-coche the two cases (ALLOW HTTP traffic and ALLOW HTTPS traffic)
-![](images/pritunl-server-creation-1.PNG)
-Expand the Networking section and coche enable under IP forwarding
-![](images/enable-ip-forwarding.PNG)
-And leave all others fields with default value, then click create.
+Name: pritunl-vpn-server<br>
+region: europe-west1<br>
+Machine family<br>
+serie: N1<br>
+![](images/pritunl-server-creation.PNG)<br>
+Boot disk<br>
+image: Ubuntu 20.04 LTS<br>
+Firewall<br>
+coche the two cases (ALLOW HTTP traffic and ALLOW HTTPS traffic)<br>
+![](images/pritunl-server-creation-1.PNG)<br>
+Expand the Networking section and coche enable under IP forwarding<br>
+![](images/enable-ip-forwarding.PNG)<br>
+And leave all others fields with default value, then click create.<br>
 Alright, we have our virtual machine on GCP, let's go and [install pritunl](https://github.com/Donutson/VPN-SERVER-PRITUNL/blob/main/02-install-pritunl.md) on it.
