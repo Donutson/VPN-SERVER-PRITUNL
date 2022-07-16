@@ -35,7 +35,7 @@ Some MongoDB servers authenticate on the admin database and require the option a
 After the MongoDB database uri has been configured the web console will display the login dialog (if login dialog don't show up, refresh the page or close and re-enter the ip address).<br>
 ![](images/login.PNG)
 
-The default username is pritunl, run sudo pritunl default-password to get the default password.
+The default username is pritunl, run ```sudo pritunl default-password``` to get the default password.
 ![](images/default-password.PNG)
 
 After signing in the initial setup dialog will be shown. 
