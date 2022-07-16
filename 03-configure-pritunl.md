@@ -21,7 +21,7 @@ Now, opens it on a web browser, we get the following setup page
 ![](images/database-setup.PNG)
 
 The database setup will prompt for a setup key and MongoDB URI. 
-To get the setup key ssh on to the server and run the command ```sudo pritunl setup-key``` this will return the setup key.
+To get the setup key ssh on to the server and run the command ```sudo pritunl setup-key``` this will return the setup key. <br>
 ![](images/setup-key.PNG)
 
 By default the MongoDB URI will be filled with the URI for the localhost MongoDB server. 
@@ -32,7 +32,7 @@ Some MongoDB servers authenticate on the admin database and require the option a
 
 ## Initial Setup
 
-After the MongoDB database uri has been configured the web console will display the login dialog (if login dialog don't show up, refresh the page or close and re-enter the ip address).
+After the MongoDB database uri has been configured the web console will display the login dialog (if login dialog don't show up, refresh the page or close and re-enter the ip address).<br>
 ![](images/login.PNG)
 
 The default username is pritunl, run sudo pritunl default-password to get the default password.
@@ -49,9 +49,9 @@ To get connected to a vpn server on Pritunl an organization, user and server mus
 To create an organization click Add Organization from the Organization page in the web console. 
 Then click Add User an email address and user pin can optionally be included.
 
-![](images/organization.PNG)
-![](images/organization-add.PNG)
-![](images/user-add.PNG)
+![](images/organization.PNG)<br>
+![](images/organization-add.PNG)<br>
+![](images/user-add.PNG)<br>
 
 ## Server
 Once the organization and user have been created go to the Servers page and click Add Server. 
@@ -60,8 +60,8 @@ The dns server will automatically be set to Google's public dns server.
 Once the server is created click Attach Organization to and attach the organization created earlier to the server. 
 Then click Start Server to start the vpn server.
 
-![](images/server.PNG)
-![](images/server-attach-organization.PNG)
-![](images/server-start.PNG)
+![](images/server.PNG)<br>
+![](images/server-attach-organization.PNG)<br>
+![](images/server-start.PNG)<br>
 
 Now we have to just create [firewall rules](https://github.com/Donutson/VPN-SERVER-PRITUNL/blob/main/04-firewall-rules.md) on GCP to allow egress and ingress on the defined port of our server for pritunl.
